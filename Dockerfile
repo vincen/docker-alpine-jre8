@@ -15,3 +15,4 @@ RUN apk --update add wget ca-certificates && \
  chmod ugo+x /usr/bin/java && \
  rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
  apk del wget ca-certificates 
+
